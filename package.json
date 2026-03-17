@@ -134,6 +134,7 @@
     "yargs": "^17.7.2"
   },
   "dependencies": {
+    "chrome-devtools-mcp": "^0.20.0",
     "ink": "npm:@jrichman/ink@6.4.11",
     "latest-version": "^9.0.0",
     "node-fetch-native": "^1.6.7",
