@@ -6,17 +6,18 @@
 
 import type React from 'react';
 import { Box, Text } from 'ink';
-import type { ExecutionTreeState } from '../hooks/useExecutionTree.js';
+import { useConfig } from '../contexts/ConfigContext.js';
+import { useUIState } from '../contexts/UIStateContext.js';
+import { useExecutionTree } from '../hooks/useExecutionTree.js';
 import { ExecutionTreeNodeView } from './ExecutionTreeNode.js';
 import { theme } from '../semantic-colors.js';
 
-interface ExecutionTreeViewProps {
-  tree: ExecutionTreeState;
-}
+export const ExecutionTreeView: React.FC = () => {
+  const config = useConfig();
+  const uiState = useUIState();
 
-export const ExecutionTreeView: React.FC<ExecutionTreeViewProps> = ({
-  tree,
-}) => {
+  const tree = useExecutionTree(config, uiState.thought);
+
   if (!tree.hasActivity || tree.roots.length === 0) {
     return null;
   }
@@ -25,9 +26,9 @@ export const ExecutionTreeView: React.FC<ExecutionTreeViewProps> = ({
     <Box
       flexDirection="column"
       width="100%"
-      paddingLeft={1}
       marginTop={1}
       marginBottom={1}
+      paddingLeft={1}
     >
       <Text color={theme.text.secondary} bold>
         Execution

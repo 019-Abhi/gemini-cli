@@ -6,9 +6,9 @@
 
 import type React from 'react';
 import { Box, Text } from 'ink';
+import type { ExecutionTreeNode } from '../hooks/useExecutionTree.js';
 import { ToolStatusIndicator } from './messages/ToolShared.js';
 import { theme } from '../semantic-colors.js';
-import type { ExecutionTreeNode } from '../hooks/useExecutionTree.js';
 
 interface ExecutionTreeNodeProps {
   node: ExecutionTreeNode;
@@ -25,41 +25,43 @@ export const ExecutionTreeNodeView: React.FC<ExecutionTreeNodeProps> = ({
   const nextPrefix = `${prefix}${isLast ? '   ' : '│  '}`;
 
   const renderLabel = () => {
-    switch (node.type) {
-      case 'prompt':
-        return (
-          <Text color={theme.text.accent} bold>
-            {node.label}
-          </Text>
-        );
-      case 'thought':
-        return (
-          <Text color={theme.text.secondary} wrap="truncate">
-            Thought: {node.label}
-          </Text>
-        );
-      case 'scheduler':
-        return (
-          <Text color={theme.text.secondary} wrap="truncate">
-            {node.label}
-          </Text>
-        );
-      case 'tool':
-        return (
-          <Box flexDirection="row" gap={1}>
-            {node.status && node.name && (
-              <ToolStatusIndicator status={node.status} name={node.name} />
-            )}
-            <Text wrap="truncate">
-              <Text color={theme.text.primary} bold>
-                {node.name ?? node.label}
-              </Text>
-            </Text>
-          </Box>
-        );
-      default:
-        return <Text>{node.label}</Text>;
+    if (node.type === 'prompt') {
+      return (
+        <Text color={theme.text.accent} bold>
+          {node.label}
+        </Text>
+      );
     }
+
+    if (node.type === 'thought') {
+      return (
+        <Text color={theme.text.secondary} wrap="truncate">
+          Thought: {node.label}
+        </Text>
+      );
+    }
+
+    if (node.type === 'scheduler') {
+      return (
+        <Text color={theme.text.secondary} wrap="truncate">
+          {node.label}
+        </Text>
+      );
+    }
+
+    // node.type === 'tool'
+    return (
+      <Box flexDirection="row">
+        {node.status && node.name && (
+          <ToolStatusIndicator status={node.status} name={node.name} />
+        )}
+        <Text wrap="truncate">
+          <Text color={theme.text.primary} bold>
+            {node.name ?? node.label}
+          </Text>
+        </Text>
+      </Box>
+    );
   };
 
   return (
@@ -72,7 +74,6 @@ export const ExecutionTreeNodeView: React.FC<ExecutionTreeNodeProps> = ({
       </Box>
       {node.children.map((child, index) => (
         <ExecutionTreeNodeView
-          // callId / schedulerId / synthetic ids are already stable
           key={child.id}
           node={child}
           prefix={nextPrefix}

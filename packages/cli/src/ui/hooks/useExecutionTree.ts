@@ -4,18 +4,15 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type {
   Config,
   ToolCall,
   ToolCallsUpdateMessage,
   ThoughtSummary,
-
-  CoreToolCallStatus} from '@google/gemini-cli-core';
-import {
-  MessageBusType,
-  ROOT_SCHEDULER_ID
+  CoreToolCallStatus,
 } from '@google/gemini-cli-core';
+import { MessageBusType, ROOT_SCHEDULER_ID } from '@google/gemini-cli-core';
 
 export type ExecutionTreeNodeType = 'prompt' | 'thought' | 'scheduler' | 'tool';
 
@@ -51,6 +48,16 @@ export function useExecutionTree(
     Record<string, ToolCall[]>
   >({});
 
+  // Reset scheduler state when a new prompt starts (thought transitions from
+  // defined -> null) to avoid showing stale schedulers between prompts.
+  const previousThoughtRef = useRef<ThoughtSummary | null>(null);
+  useEffect(() => {
+    if (thought === null && previousThoughtRef.current !== null) {
+      setToolCallsByScheduler({});
+    }
+    previousThoughtRef.current = thought;
+  }, [thought]);
+
   // Subscribe to TOOL_CALLS_UPDATE to maintain an in-memory snapshot of tool calls
   useEffect(() => {
     const messageBus = config.getMessageBus();
@@ -59,39 +66,6 @@ export function useExecutionTree(
       const incomingCalls = Array.isArray(event.toolCalls)
         ? event.toolCalls
         : [];
-
-      // #region agent log
-      // Instrument TOOL_CALLS_UPDATE ingestion to validate toolCalls shape (H1, H2, H3)
-       
-      fetch(
-        'http://127.0.0.1:7380/ingest/d7d027c6-ac4c-46af-9b8e-912da414c180',
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'X-Debug-Session-Id': '4676a3',
-          },
-          body: JSON.stringify({
-            sessionId: '4676a3',
-            runId: 'pre-fix-1',
-            hypothesisId: 'H1',
-            location: 'useExecutionTree.ts:62',
-            message: 'TOOL_CALLS_UPDATE received',
-            data: {
-              schedulerId: event.schedulerId,
-              hasToolCallsProp: Object.prototype.hasOwnProperty.call(
-                event,
-                'toolCalls',
-              ),
-              toolCallsType: typeof event.toolCalls,
-              isArray: Array.isArray(event.toolCalls),
-              incomingLength: incomingCalls.length,
-            },
-            timestamp: Date.now(),
-          }),
-        },
-      ).catch(() => {});
-      // #endregion agent log
       setToolCallsByScheduler((prev) => {
         if (prev[event.schedulerId] === incomingCalls) {
           return prev;
@@ -149,45 +123,29 @@ export function useExecutionTree(
       cappedToolCallsByScheduler,
     ).flat();
 
-    // #region agent log
-    // Instrument tree build to capture aggregate counts (H2, H3)
-     
-    fetch('http://127.0.0.1:7380/ingest/d7d027c6-ac4c-46af-9b8e-912da414c180', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Debug-Session-Id': '4676a3',
-      },
-      body: JSON.stringify({
-        sessionId: '4676a3',
-        runId: 'pre-fix-1',
-        hypothesisId: 'H2',
-        location: 'useExecutionTree.ts:118',
-        message: 'Execution tree aggregation snapshot',
-        data: {
-          schedulerCount: schedulerIds.length,
-          totalToolCalls: allToolCalls.length,
-          totalCappedCalls: allCappedCalls.length,
-        },
-        timestamp: Date.now(),
-      }),
-    }).catch(() => {});
-    // #endregion agent log
-
     const toolNodeById = new Map<string, ExecutionTreeNode>();
     const schedulerMetaById = new Map<string, SchedulerMetadata>();
 
-    // Pre-create scheduler metadata so we can attach them later.
+    // Pre-create scheduler metadata so we can attach them later. For each
+    // scheduler, if all calls agree on a single parentCallId, we attach the
+    // scheduler under that tool. If there are multiple distinct parents, we
+    // leave parentCallId undefined to avoid attaching the scheduler to an
+    // incorrect tool.
     for (const [schedulerId, calls] of Object.entries(
       cappedToolCallsByScheduler,
     )) {
-      let parentCallId: string | undefined;
+      const parentIds = new Set<string>();
       for (const call of calls) {
         if (call.request.parentCallId) {
-          parentCallId = call.request.parentCallId;
-          break;
+          parentIds.add(call.request.parentCallId);
         }
       }
+
+      let parentCallId: string | undefined;
+      if (parentIds.size === 1) {
+        parentCallId = parentIds.values().next().value;
+      }
+
       schedulerMetaById.set(schedulerId, { schedulerId, parentCallId });
     }
 
