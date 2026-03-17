@@ -40,7 +40,6 @@ import { TodoTray } from './messages/Todo.js';
 import { getInlineThinkingMode } from '../utils/inlineThinkingMode.js';
 import { isContextUsageHigh } from '../utils/contextUsage.js';
 import { theme } from '../semantic-colors.js';
-import { useExecutionTree } from '../hooks/useExecutionTree.js';
 import { ExecutionTreeView } from './ExecutionTreeView.js';
 
 export const Composer = ({ isFocused = true }: { isFocused?: boolean }) => {
@@ -62,8 +61,6 @@ export const Composer = ({ isFocused = true }: { isFocused?: boolean }) => {
   const suggestionsPosition = isAlternateBuffer ? 'above' : 'below';
   const hideContextSummary =
     suggestionsVisible && suggestionsPosition === 'above';
-
-  const executionTree = useExecutionTree(config, uiState.thought);
 
   const hasPendingToolConfirmation = useMemo(
     () =>
@@ -420,7 +417,7 @@ export const Composer = ({ isFocused = true }: { isFocused?: boolean }) => {
             </Box>
           </Box>
         )}
-        {showUiDetails && <ExecutionTreeView tree={executionTree} />}
+        {showUiDetails && <ExecutionTreeView />}
       </Box>
 
       {showUiDetails && uiState.showErrorDetails && (
