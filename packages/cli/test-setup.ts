@@ -4,10 +4,23 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { vi, beforeEach, afterEach } from 'vitest';
+import { vi, beforeEach, afterEach, type MockInstance } from 'vitest';
 import { format } from 'node:util';
 import { coreEvents } from '@google/gemini-cli-core';
 import { themeManager } from './src/ui/themes/theme-manager.js';
+
+// Filter out the punycode deprecation warning flood
+process.removeAllListeners('warning');
+process.on('warning', (warning) => {
+  if (
+    warning.name === 'DeprecationWarning' &&
+    warning.message.includes('punycode')
+  ) {
+    return;
+  }
+  // Allow other warnings to pass through so we don't hide real issues
+  console.warn(warning.name, warning.message);
+});
 
 // Unset CI environment variable so that ink renders dynamically as it does in a real terminal
 if (process.env.CI !== undefined) {
@@ -34,10 +47,17 @@ import './src/test-utils/customMatchers.js';
 
 let consoleErrorSpy: vi.SpyInstance;
 let actWarnings: Array<{ message: string; stack: string }> = [];
+let consoleLogSpy: MockInstance;
+let consoleWarnSpy: MockInstance;
+let consoleInfoSpy: MockInstance;
 
 beforeEach(() => {
   // Reset themeManager state to ensure test isolation
   themeManager.resetForTesting();
+
+  consoleLogSpy = vi.spyOn(console, 'log').mockImplementation(() => {});
+  consoleWarnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
+  consoleInfoSpy = vi.spyOn(console, 'info').mockImplementation(() => {});
 
   actWarnings = [];
   consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation((...args) => {
@@ -76,6 +96,15 @@ beforeEach(() => {
 });
 
 afterEach(() => {
+  //Clear the specific emitters causing the "MaxListenersExceeded" noise
+  coreEvents.removeAllListeners();
+  process.removeAllListeners('message');
+
+  // Restore all spies
+  consoleLogSpy.mockRestore();
+  consoleWarnSpy.mockRestore();
+  consoleInfoSpy.mockRestore();
+
   consoleErrorSpy.mockRestore();
 
   vi.unstubAllEnvs();

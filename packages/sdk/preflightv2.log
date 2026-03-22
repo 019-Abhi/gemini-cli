@@ -1,0 +1,496 @@
+[2026-03-22T08:23:47.862Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:47.865Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.867Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.867Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.887Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:47.888Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:47.888Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:47.888Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:47.889Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:47.889Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T08:23:47.899Z] [DEBUG] [Routing] Selected model: gemini-2.0-flash (Source: agent-router/override, Latency: 0ms)
+	[Routing] Reasoning: Routing bypassed by forced model directive. Using: gemini-2.0-flash
+[2026-03-22T08:23:47.906Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:47.908Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.908Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.909Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.911Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:47.911Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:47.911Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:47.911Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:47.911Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:47.912Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T08:23:47.914Z] [DEBUG] [Routing] Selected model: gemini-2.0-flash (Source: agent-router/override, Latency: 0ms)
+	[Routing] Reasoning: Routing bypassed by forced model directive. Using: gemini-2.0-flash
+[2026-03-22T08:23:47.916Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:47.918Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:47.918Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:47.919Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.921Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.921Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.921Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.921Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.921Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.923Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:47.923Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:47.923Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:47.923Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:47.923Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:47.923Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T08:23:47.925Z] [DEBUG] [Routing] Selected model: gemini-2.0-flash (Source: agent-router/override, Latency: 0ms)
+	[Routing] Reasoning: Routing bypassed by forced model directive. Using: gemini-2.0-flash
+[2026-03-22T08:23:47.937Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:47.937Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:47.938Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:47.938Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:47.938Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:47.938Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T08:23:47.952Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774167827952-cb7b83e38f235
+[2026-03-22T08:23:47.958Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T08-23-47-954Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T08:23:47.960Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/skills.integration.test.ts:47:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T08:23:47.960Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 8ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T08:23:47.965Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:47.966Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.967Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.967Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:47.969Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:47.969Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:47.970Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:47.970Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:47.970Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:47.970Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T08:23:47.972Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774167827972-f46446efd1687
+[2026-03-22T08:23:47.973Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T08-23-47-973Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T08:23:47.974Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/skills.integration.test.ts:80:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T08:23:47.974Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 1ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T08:23:48.023Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.024Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.024Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.040Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:48.040Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:48.040Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:48.040Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:48.040Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:48.041Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T08:23:48.051Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774167828051-877642ab92751
+[2026-03-22T08:23:48.057Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T08-23-48-053Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T08:23:48.059Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/tool.integration.test.ts:50:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T08:23:48.059Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 8ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T08:23:48.063Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:48.064Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.064Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.065Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.066Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:48.066Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:48.066Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:48.066Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:48.067Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:48.067Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T08:23:48.068Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774167828068-643e22238cadd
+[2026-03-22T08:23:48.069Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T08-23-48-069Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T08:23:48.069Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/tool.integration.test.ts:95:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T08:23:48.069Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 1ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T08:23:48.072Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:48.073Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.073Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.073Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.075Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:48.075Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:48.075Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:48.075Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:48.075Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:48.075Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T08:23:48.077Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774167828077-2a1169a6a729f
+[2026-03-22T08:23:48.078Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T08-23-48-077Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T08:23:48.078Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/tool.integration.test.ts:137:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T08:23:48.078Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 1ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T08:23:48.435Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:48.437Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.438Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.438Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.441Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:48.441Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:48.441Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:48.441Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:48.442Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:48.442Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T08:23:48.450Z] [DEBUG] [Routing] Selected model: gemini-2.0-flash (Source: agent-router/override, Latency: 0ms)
+	[Routing] Reasoning: Routing bypassed by forced model directive. Using: gemini-2.0-flash
+[2026-03-22T08:23:48.456Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T08:23:48.458Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.458Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.458Z] [DEBUG] Ignore file not found: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/.geminiignore, continue without it.
+[2026-03-22T08:23:48.460Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T08:23:48.460Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T08:23:48.461Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T08:23:48.461Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T08:23:48.461Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T08:23:48.461Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:38.887Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:38.909Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:38.909Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:38.910Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:38.910Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:38.910Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:38.911Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:38.921Z] [DEBUG] [Routing] Selected model: gemini-2.0-flash (Source: agent-router/override, Latency: 0ms)
+	[Routing] Reasoning: Routing bypassed by forced model directive. Using: gemini-2.0-flash
+[2026-03-22T09:07:38.928Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:38.932Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:38.932Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:38.932Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:38.932Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:38.933Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:38.933Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:38.935Z] [DEBUG] [Routing] Selected model: gemini-2.0-flash (Source: agent-router/override, Latency: 0ms)
+	[Routing] Reasoning: Routing bypassed by forced model directive. Using: gemini-2.0-flash
+[2026-03-22T09:07:38.938Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:38.941Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:38.943Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:38.943Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:38.943Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:38.943Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:38.943Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:38.943Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:38.945Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:38.945Z] [DEBUG] [Routing] Selected model: gemini-2.0-flash (Source: agent-router/override, Latency: 0ms)
+	[Routing] Reasoning: Routing bypassed by forced model directive. Using: gemini-2.0-flash
+[2026-03-22T09:07:38.963Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:38.963Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:38.964Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:38.964Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:38.964Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:38.964Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:38.964Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:38.964Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:38.965Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:38.966Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:38.967Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:38.969Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:38.977Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774170458977-aef75251c4ed8
+[2026-03-22T09:07:38.977Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774170458977-163821d9ece1c
+[2026-03-22T09:07:38.982Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T09-07-38-979Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T09:07:38.983Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T09-07-38-979Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T09:07:38.984Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/skills.integration.test.ts:47:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T09:07:38.984Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 7ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T09:07:38.988Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:38.985Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/tool.integration.test.ts:50:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T09:07:38.985Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 8ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T09:07:38.989Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:38.992Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:38.992Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:38.992Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:38.992Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:38.992Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:38.992Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:38.992Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:38.992Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:38.993Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:38.993Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:38.993Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:38.993Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:38.995Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774170458995-2892da7cb8b3d
+[2026-03-22T09:07:38.995Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774170458995-ad92fdbe8c6ba
+[2026-03-22T09:07:38.995Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T09-07-38-995Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T09:07:38.996Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T09-07-38-995Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T09:07:38.996Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/skills.integration.test.ts:80:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T09:07:38.996Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 1ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T09:07:38.996Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/tool.integration.test.ts:95:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T09:07:38.996Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 1ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T09:07:38.998Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:39.001Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:39.001Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:39.001Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:39.001Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:39.001Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:39.001Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:39.003Z] [WARN] Could not find promptId in context for classifier-router. This is unexpected. Using a fallback ID: classifier-router-fallback-1774170459003-3d7fc50de164
+[2026-03-22T09:07:39.003Z] [ERROR] Error generating content via API. Full report available at: /var/folders/9q/zp7m78bs263680r2ls_m6c2h0000gn/T/gemini-client-error-generateJson-api-2026-03-22T09-07-39-003Z.json Error: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at FakeContentGenerator.getNextResponse (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:73:13)
+    at FakeContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/fakeContentGenerator.ts:89:12)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:377:47
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:20
+    at NoopContextManager.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/context/NoopContextManager.ts:31:15)
+    at ContextAPI.with (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/api/context.ts:77:42)
+    at NoopTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/NoopTracer.ts:98:27)
+    at ProxyTracer.startActiveSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@opentelemetry/api/src/trace/ProxyTracer.ts:51:20)
+    at runInDevTraceSpan (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:77:17)
+    at LoggingContentGenerator.generateContent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/loggingContentGenerator.ts:349:29)
+[2026-03-22T09:07:39.004Z] [WARN] [Routing] NumericalClassifierStrategy failed: Error: Failed to generate content: Unexpected response type, next response was for generateContentStream but expected generateContent
+    at BaseLlmClient._generateWithRetry (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:391:13)
+    at BaseLlmClient.generateJson (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/baseLlmClient.ts:155:20)
+    at NumericalClassifierStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/numericalClassifierStrategy.ts:135:28)
+    at CompositeStrategy.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/strategies/compositeStrategy.ts:62:26)
+    at ModelRouterService.route (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/routing/modelRouterService.ts:89:18)
+    at GeminiClient.processTurn (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:704:24)
+    at GeminiClient.sendMessageStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/client.ts:925:14)
+    at GeminiCliSession.sendStream (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/session.ts:210:24)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/src/tool.integration.test.ts:137:22
+    at file:///Users/abhijith/code_files/gemini-cli/gemini-cli/node_modules/@vitest/runner/dist/chunk-hooks.js:752:20
+[2026-03-22T09:07:39.004Z] [DEBUG] [Routing] Selected model: gemini-3-pro-preview (Source: agent-router/default, Latency: 1ms)
+	[Routing] Reasoning: Routing to default model: gemini-3-pro-preview
+[2026-03-22T09:07:39.453Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:39.459Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:39.459Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:39.459Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:39.460Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:39.460Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:39.460Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)
+[2026-03-22T09:07:39.467Z] [DEBUG] [Routing] Selected model: gemini-2.0-flash (Source: agent-router/override, Latency: 0ms)
+	[Routing] Reasoning: Routing bypassed by forced model directive. Using: gemini-2.0-flash
+[2026-03-22T09:07:39.474Z] [DEBUG] Experiments loaded {
+  experimentIds: [],
+  flags: []
+}
+[2026-03-22T09:07:39.479Z] [DEBUG] [DEBUG] [MemoryDiscovery] Loading environment memory for trusted root: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk (Stopping at git root: /Users/abhijith/code_files/gemini-cli/gemini-cli)
+[2026-03-22T09:07:39.479Z] [DEBUG] [DEBUG] [MemoryDiscovery] Starting upward search from /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk stopping at /Users/abhijith/code_files/gemini-cli/gemini-cli
+[2026-03-22T09:07:39.479Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (dev: 16777232, ino: 14052975)
+[2026-03-22T09:07:39.479Z] [DEBUG] [DEBUG] [MemoryDiscovery] deduplication: keeping /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (dev: 16777232, ino: 14055316)
+[2026-03-22T09:07:39.479Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/GEMINI.md (Length: 4090)
+[2026-03-22T09:07:39.479Z] [DEBUG] [DEBUG] [MemoryDiscovery] Successfully read and processed imports: /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/sdk/GEMINI.md (Length: 592)

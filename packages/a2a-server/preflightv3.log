@@ -1,0 +1,429 @@
+[2026-03-22T09:39:01.002Z] [DEBUG] BeforeToolEvent failed for test-tool: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T09:39:01.004Z] [DEBUG] NotificationEvent failed for undefined: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:144:15)
+    at HookSystem.fireToolNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:432:35)
+    at notifyHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:209:40)
+    at resolveConfirmation (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:153:11)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:640:22)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:7)
+    at async Promise.all (index 0)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:460:7)
+[2026-03-22T09:39:01.011Z] [DEBUG] BeforeToolEvent failed for test-tool-1: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T09:39:01.011Z] [DEBUG] BeforeToolEvent failed for test-tool-2: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T09:39:01.012Z] [DEBUG] NotificationEvent failed for undefined: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:144:15)
+    at HookSystem.fireToolNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:432:35)
+    at notifyHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:209:40)
+    at resolveConfirmation (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:153:11)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:640:22)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:7)
+    at async Promise.all (index 0)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:460:7)
+[2026-03-22T09:39:01.012Z] [DEBUG] NotificationEvent failed for undefined: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:144:15)
+    at HookSystem.fireToolNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:432:35)
+    at notifyHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:209:40)
+    at resolveConfirmation (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:153:11)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:640:22)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:7)
+    at async Promise.all (index 1)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:460:7)
+[2026-03-22T09:39:01.016Z] [DEBUG] BeforeToolEvent failed for test-tool-1: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T09:39:01.016Z] [DEBUG] BeforeToolEvent failed for test-tool-2: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T09:39:01.018Z] [DEBUG] AfterToolEvent failed for test-tool-1: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T09:39:01.018Z] [DEBUG] AfterToolEvent failed for test-tool-2: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T09:39:01.024Z] [DEBUG] BeforeToolEvent failed for test-tool-no-approval: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T09:39:01.025Z] [DEBUG] AfterToolEvent failed for test-tool-no-approval: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T09:39:01.028Z] [DEBUG] BeforeToolEvent failed for test-tool-yolo: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T09:39:01.028Z] [DEBUG] AfterToolEvent failed for test-tool-yolo: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T09:39:01.046Z] [WARN] Command cyclic-command already inserted in the response, skipping
+[2026-03-22T10:05:08.319Z] [DEBUG] BeforeToolEvent failed for test-tool: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:05:08.320Z] [DEBUG] NotificationEvent failed for undefined: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:144:15)
+    at HookSystem.fireToolNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:432:35)
+    at notifyHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:209:40)
+    at resolveConfirmation (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:153:11)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:640:22)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:7)
+    at async Promise.all (index 0)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:460:7)
+[2026-03-22T10:05:08.327Z] [DEBUG] BeforeToolEvent failed for test-tool-1: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:05:08.327Z] [DEBUG] BeforeToolEvent failed for test-tool-2: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:05:08.328Z] [DEBUG] NotificationEvent failed for undefined: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:144:15)
+    at HookSystem.fireToolNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:432:35)
+    at notifyHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:209:40)
+    at resolveConfirmation (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:153:11)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:640:22)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:7)
+    at async Promise.all (index 0)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:460:7)
+[2026-03-22T10:05:08.328Z] [DEBUG] NotificationEvent failed for undefined: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:144:15)
+    at HookSystem.fireToolNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:432:35)
+    at notifyHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:209:40)
+    at resolveConfirmation (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:153:11)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:640:22)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:7)
+    at async Promise.all (index 1)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:460:7)
+[2026-03-22T10:05:08.332Z] [DEBUG] BeforeToolEvent failed for test-tool-1: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:05:08.332Z] [DEBUG] BeforeToolEvent failed for test-tool-2: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:05:08.336Z] [DEBUG] AfterToolEvent failed for test-tool-1: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T10:05:08.336Z] [DEBUG] AfterToolEvent failed for test-tool-2: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T10:05:08.346Z] [DEBUG] BeforeToolEvent failed for test-tool-no-approval: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:05:08.347Z] [DEBUG] AfterToolEvent failed for test-tool-no-approval: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T10:05:08.349Z] [DEBUG] BeforeToolEvent failed for test-tool-yolo: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:05:08.350Z] [DEBUG] AfterToolEvent failed for test-tool-yolo: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T10:05:08.363Z] [WARN] Command cyclic-command already inserted in the response, skipping
+[2026-03-22T10:08:36.724Z] [DEBUG] BeforeToolEvent failed for test-tool: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:08:36.725Z] [DEBUG] NotificationEvent failed for undefined: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:144:15)
+    at HookSystem.fireToolNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:432:35)
+    at notifyHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:209:40)
+    at resolveConfirmation (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:153:11)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:640:22)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:7)
+    at async Promise.all (index 0)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:460:7)
+[2026-03-22T10:08:36.732Z] [DEBUG] BeforeToolEvent failed for test-tool-1: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:08:36.732Z] [DEBUG] BeforeToolEvent failed for test-tool-2: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:08:36.732Z] [DEBUG] NotificationEvent failed for undefined: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:144:15)
+    at HookSystem.fireToolNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:432:35)
+    at notifyHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:209:40)
+    at resolveConfirmation (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:153:11)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:640:22)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:7)
+    at async Promise.all (index 0)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:460:7)
+[2026-03-22T10:08:36.732Z] [DEBUG] NotificationEvent failed for undefined: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:144:15)
+    at HookSystem.fireToolNotificationEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:432:35)
+    at notifyHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:209:40)
+    at resolveConfirmation (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/confirmation.ts:153:11)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:640:22)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:7)
+    at async Promise.all (index 1)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:460:7)
+[2026-03-22T10:08:36.736Z] [DEBUG] BeforeToolEvent failed for test-tool-1: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:08:36.737Z] [DEBUG] BeforeToolEvent failed for test-tool-2: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:08:36.741Z] [DEBUG] AfterToolEvent failed for test-tool-1: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T10:08:36.741Z] [DEBUG] AfterToolEvent failed for test-tool-2: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T10:08:36.753Z] [DEBUG] BeforeToolEvent failed for test-tool-no-approval: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:08:36.753Z] [DEBUG] AfterToolEvent failed for test-tool-no-approval: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T10:08:36.757Z] [DEBUG] BeforeToolEvent failed for test-tool-yolo: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:83:15)
+    at HookSystem.fireBeforeToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:386:50)
+    at evaluateBeforeToolHook (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/hook-utils.ts:43:41)
+    at Scheduler._processToolCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:577:52)
+    at Scheduler._processValidatingCall (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:543:18)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:41
+    at Array.map (<anonymous>)
+    at Scheduler._processNextItem (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:461:25)
+    at Scheduler._processQueue (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/scheduler.ts:404:41)
+[2026-03-22T10:08:36.758Z] [DEBUG] AfterToolEvent failed for test-tool-yolo: TypeError: this.context.geminiClient?.getChatRecordingService is not a function
+    at HookEventHandler.createBaseInput (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:374:11)
+    at HookEventHandler.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookEventHandler.ts:108:15)
+    at HookSystem.fireAfterToolEvent (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/hooks/hookSystem.ts:411:50)
+    at executeToolWithHooks (/Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/core/coreToolHookTriggers.ts:182:42)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/scheduler/tool-executor.ts:121:42
+    at /Users/abhijith/code_files/gemini-cli/gemini-cli/packages/core/src/telemetry/trace.ts:127:14
+[2026-03-22T10:08:36.766Z] [WARN] Command cyclic-command already inserted in the response, skipping

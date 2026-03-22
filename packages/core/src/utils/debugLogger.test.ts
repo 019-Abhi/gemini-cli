@@ -10,9 +10,11 @@ import { debugLogger } from './debugLogger.js';
 describe('DebugLogger', () => {
   afterEach(() => {
     vi.restoreAllMocks();
+    vi.unstubAllEnvs();
   });
 
   it('should call console.log with the correct arguments', () => {
+    vi.stubEnv('NODE_ENV', 'development');
     const spy = vi.spyOn(console, 'log').mockImplementation(() => {});
     const message = 'This is a log message';
     const data = { key: 'value' };
@@ -22,6 +24,7 @@ describe('DebugLogger', () => {
   });
 
   it('should call console.warn with the correct arguments', () => {
+    vi.stubEnv('NODE_ENV', 'development');
     const spy = vi.spyOn(console, 'warn').mockImplementation(() => {});
     const message = 'This is a warning message';
     const data = [1, 2, 3];
@@ -31,6 +34,7 @@ describe('DebugLogger', () => {
   });
 
   it('should call console.error with the correct arguments', () => {
+    vi.stubEnv('NODE_ENV', 'development');
     const spy = vi.spyOn(console, 'error').mockImplementation(() => {});
     const message = 'This is an error message';
     const error = new Error('Something went wrong');
@@ -40,6 +44,8 @@ describe('DebugLogger', () => {
   });
 
   it('should call console.debug with the correct arguments', () => {
+    vi.stubEnv('NODE_ENV', 'development');
+    vi.stubEnv('GEMINI_DEBUG', '1');
     const spy = vi.spyOn(console, 'debug').mockImplementation(() => {});
     const message = 'This is a debug message';
     const obj = { a: { b: 'c' } };
@@ -49,6 +55,8 @@ describe('DebugLogger', () => {
   });
 
   it('should handle multiple arguments correctly for all methods', () => {
+    vi.stubEnv('NODE_ENV', 'development');
+    vi.stubEnv('GEMINI_DEBUG', '1');
     const logSpy = vi.spyOn(console, 'log').mockImplementation(() => {});
     const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
     const errorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
@@ -68,6 +76,7 @@ describe('DebugLogger', () => {
   });
 
   it('should handle calls with no arguments', () => {
+    vi.stubEnv('NODE_ENV', 'development');
     const logSpy = vi.spyOn(console, 'log').mockImplementation(() => {});
     const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
 

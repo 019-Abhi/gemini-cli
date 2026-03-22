@@ -13,6 +13,14 @@ import { setSimulate429 } from './src/utils/testUtils.js';
 import { vi, afterEach } from 'vitest';
 import { coreEvents } from './src/utils/events.js';
 
+// Suppress third-party punycode deprecation warnings
+process.removeAllListeners('warning');
+process.on('warning', (warning) => {
+  if (warning.name === 'DeprecationWarning' && warning.code === 'DEP0040')
+    return;
+  process.stderr.write(warning.toString() + '\n');
+});
+
 // Increase max listeners to avoid warnings in large test suites
 coreEvents.setMaxListeners(100);
 
@@ -21,6 +29,8 @@ setSimulate429(false);
 
 afterEach(() => {
   vi.unstubAllEnvs();
+  process.removeAllListeners('SIGTERM');
+  process.removeAllListeners('SIGINT');
 });
 
 // Default mocks for Storage and ProjectRegistry to prevent disk access in most tests.

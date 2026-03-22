@@ -16,6 +16,10 @@ export default defineConfig({
     conditions: ['test'],
   },
   test: {
+    silent: true,
+    env: {
+      NODE_ENV: 'test',
+    },
     include: ['**/*.{test,spec}.{js,ts,jsx,tsx}', 'config.test.ts'],
     exclude: ['**/node_modules/**', '**/dist/**', '**/cypress/**'],
     environment: 'node',

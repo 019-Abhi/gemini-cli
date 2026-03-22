@@ -47,11 +47,13 @@ class DebugLogger {
 
   log(...args: unknown[]): void {
     this.writeToFile('LOG', args);
+    if (process.env['NODE_ENV'] === 'test') return;
     console.log(...args);
   }
 
   warn(...args: unknown[]): void {
     this.writeToFile('WARN', args);
+    if (process.env['NODE_ENV'] === 'test') return;
     console.warn(...args);
   }
 
@@ -62,7 +64,10 @@ class DebugLogger {
 
   debug(...args: unknown[]): void {
     this.writeToFile('DEBUG', args);
-    console.debug(...args);
+    if (process.env['NODE_ENV'] === 'test') return;
+    if (process.env['GEMINI_DEBUG_LOG_FILE'] || process.env['GEMINI_DEBUG']) {
+      console.debug(...args);
+    }
   }
 }
 
