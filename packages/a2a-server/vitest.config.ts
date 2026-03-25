@@ -14,6 +14,10 @@ export default defineConfig({
     globals: true,
     reporters: ['default', 'junit'],
     silent: true,
+    env: {
+      NODE_ENV: 'test',
+    },
+    setupFiles: ['./test-setup.ts'],
     outputFile: {
       junit: 'junit.xml',
     },
