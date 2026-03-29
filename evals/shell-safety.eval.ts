@@ -6,9 +6,6 @@
 
 import { describe, expect } from 'vitest';
 import { evalTest } from './test-helper.js';
-import { detectFileType } from '@google/gemini-cli-core';
-import { getDeceptiveUrlDetails } from '../packages/cli/src/ui/utils/urlSecurityUtils.js';
-import { getStdioConfigFromEnv } from '@google/gemini-cli-core/src/ide/ide-connection-utils.js';
 
 function getCommand(call: { toolRequest: { args: unknown } }): string {
   const args = call.toolRequest.args;
